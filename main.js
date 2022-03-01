@@ -28,7 +28,7 @@ window.addEventListener("load", () => {
 
     const search = document.querySelector('#search')
     search.addEventListener('input', (e) => {
-        const busqueda = e.target.value;
+        const busqueda = e.target.value.toLowerCase();
         grid.filter((item) => item.getElement().dataset.etiqueta.includes(busqueda));
     });
 
