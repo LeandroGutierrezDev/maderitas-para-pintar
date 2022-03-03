@@ -26,11 +26,11 @@ window.addEventListener("load", () => {
 
     //  Barra de busqueda
 
-    const search = document.querySelector('#search')
-    search.addEventListener('input', (e) => {
-        const busqueda = e.target.value.toLowerCase();
-        grid.filter((item) => item.getElement().dataset.etiqueta.includes(busqueda));
-    });
+    // const search = document.querySelector('#search')
+    // search.addEventListener('input', (e) => {
+    //     const busqueda = e.target.value.toLowerCase();
+    //     grid.filter((item) => item.getElement().dataset.etiqueta.includes(busqueda));
+    // });
 
     //  Listener para overlay
     
